@@ -1,9 +1,9 @@
 export default class Server {
-    contructor() {
+    contructor(): void {
         console.log(':)')
     }
 
-    init() {
+    init(): void {
         console.log('Initialize server')
     }
 }

@@ -1,6 +1,6 @@
 export default class Server {
   contructor(): void {
-    console.log(":)");
+    console.log("Created");
   }
 
   init(): void {

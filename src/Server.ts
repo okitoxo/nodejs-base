@@ -4,6 +4,6 @@ export default class Server {
   }
 
   init(): void {
-        console.log("Initialize server");
+    console.log("Initialize server");
   }
 }

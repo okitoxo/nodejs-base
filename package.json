@@ -9,7 +9,9 @@
     "format": "prettier --write ./src"
   },
   "husky": {
-    "pre-commit": "npm run format"
+      "hooks": {
+        "pre-commit": "npm run format"
+      }
   },
   "author": "Eduardo Quiñonez",
   "license": "ISC",
